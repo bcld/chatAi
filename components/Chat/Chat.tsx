@@ -359,11 +359,11 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             <div className="mb-2 font-bold">
               但行好事，莫问前程.
             </div>
-          </div>
-          <div className="text-center text-gray-500 dark:text-gray-400">
-            <div className="mb-2">
+            <div className="mb-2 font-bold">
               只做简单跳转，数据存放在本地浏览器，请放心食用。
             </div>
+          </div>
+          <div className="text-center text-gray-500 dark:text-gray-400">
             <div className="mb-2">
               Panda AI allows you to plug in your API key to use this UI with
               their API.
