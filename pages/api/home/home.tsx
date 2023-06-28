@@ -360,7 +360,6 @@ const Home = ({
       }}
     >
       <Head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7167843927850769" crossOrigin="anonymous"></script>
         <title>Panda AI</title>
         <meta name="description" content="ChatGPT but better." />
         <meta
@@ -370,6 +369,7 @@ const Home = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {selectedConversation && (
+        <>
         <main
           className={`flex h-screen w-screen flex-col text-sm text-white dark:text-white ${lightMode}`}
         >
@@ -390,6 +390,8 @@ const Home = ({
             <Promptbar />
           </div>
         </main>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7167843927850769" crossOrigin="anonymous"></script> 
+        </>
       )}
     </HomeContext.Provider>
   );
