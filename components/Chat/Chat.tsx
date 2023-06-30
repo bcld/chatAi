@@ -355,38 +355,46 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             Welcome to Panda AI
           </div>
           <div className="text-center text-lg text-black dark:text-white">
-            <div className="mb-8">{`Panda AI is an open source clone of Chatbot UI.`}</div>
+            {/* <div className="mb-8">{`Panda AI is an open source clone of Chatbot UI.`}</div> */}
             <div className="mb-2 font-bold">
-              但行好事，莫问前程.
+              无需魔法,国内直连,便捷特惠。
             </div>
             <div className="mb-2 font-bold">
-              只做简单跳转，数据存放在本地浏览器，请放心食用。
+              暑期特惠，超值套餐，3天2.7元，7天5.6元，不限次数。
             </div>
+            <br></br>
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
-            <div className="mb-2">
-              Panda AI allows you to plug in your API key to use this UI with
-              their API.
-            </div>
-            <div className="mb-2">
+            
+            {/* <div className="mb-2">
               It is <span className="italic">only</span> used to communicate
               with their API.
-            </div>
-            <div className="mb-2">
-              {t(
-                'Please set your OpenAI API key in the bottom left of the sidebar.',
-              )}
-            </div>
+            </div> */}
             <div>
-              {t("If you don't have an OpenAI API key, you can get one here: ")}
+            <div  className="mb-2 text-center font-bold">
+              使用方式：<br></br>
+              1. 如果你有自己的账号,可以使用自己的apiKey<br></br>
+              2. 或者联系客服购买全网超值套餐：[微信号：
               <a
-                href="https://platform.openai.com/account/api-keys"
+                href="../kefu.jpg"
                 target="_blank"
                 rel="noreferrer"
                 className="text-blue-500 hover:underline"
-              >
-                openai.com
-              </a>
+              >CrosstarAi
+              </a>]
+              <br></br>
+              3. 在侧边栏左下角设置您的 OpenAI API 密钥，即可在输入栏开启ai对话。
+            </div>
+              <div className="mb-2 text-center">
+                <span className="italic"> 只做简单跳转，数据存放在本地浏览器，请放心食用</span>
+              </div>
+              <img src="../kefu.jpg" alt="微信二维码"></img>
+              {/* {t(
+                'Please set your OpenAI API key in the bottom left of the sidebar.',
+              )} */}
+            </div>
+            <div>
+              {/* {t("If you don't have an OpenAI API key, you can get one here: ")} */}
             </div>
           </div>
         </div>
