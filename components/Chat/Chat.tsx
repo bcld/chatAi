@@ -389,7 +389,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
                 <span className="italic"> 只做简单跳转，数据存放在本地浏览器，请放心食用</span>
               </div>
               <div className="imageCenter">
-                <img src="./kefu_copy.jpg"></img>
+                <img src="./kefu.jpg" alt="客服二维码"></img>
               </div>
               {/* {t(
                 'Please set your OpenAI API key in the bottom left of the sidebar.',
