@@ -360,7 +360,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
               无需魔法,国内直连,便捷特惠。
             </div>
             <div className="mb-2 font-bold">
-              暑期特惠，超值套餐，3天2.7元，7天5.6元，不限次数。
+              暑期特惠，超值租号套餐，3天2.7元，7天5.6元，不限次数。
             </div>
             {/* <br></br> */}
           </div>
@@ -373,7 +373,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             <div>
             <div  className="mb-2 text-center font-bold">
               使用方式：<br></br>
-              1. 如果你有自己的账号,可以使用自己的apiKey<br></br>
+              1. 如果你有自己的账号,可以直接用您的apiKey<br></br>
               2. 或者联系客服购买全网超值套餐：[
               <a
                 href="./kefu2.jpg"
