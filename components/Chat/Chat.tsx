@@ -362,7 +362,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             <div className="mb-2 font-bold">
               暑期特惠，超值套餐，3天2.7元，7天5.6元，不限次数。
             </div>
-            <br></br>
+            {/* <br></br> */}
           </div>
           <div className="text-center text-gray-500 dark:text-gray-400">
             
@@ -374,21 +374,23 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             <div  className="mb-2 text-center font-bold">
               使用方式：<br></br>
               1. 如果你有自己的账号,可以使用自己的apiKey<br></br>
-              2. 或者联系客服购买全网超值套餐：[微信号：
+              2. 或者联系客服购买全网超值套餐：[
               <a
-                href="../kefu.jpg"
+                href="./kefu2.jpg"
                 target="_blank"
                 rel="noreferrer"
                 className="text-blue-500 hover:underline"
               >CrosstarAi
               </a>]
               <br></br>
-              3. 在侧边栏左下角设置您的 OpenAI API 密钥，即可在输入栏开启ai对话。
+              3. 在侧边栏左下角设置上述得到的API密钥，即可在下方输入栏开启ai对话。
             </div>
               <div className="mb-2 text-center">
                 <span className="italic"> 只做简单跳转，数据存放在本地浏览器，请放心食用</span>
               </div>
-              <img src="../kefu.jpg" alt="微信二维码"></img>
+              <div className="imageCenter">
+                <img src="./kefu.jpg"></img>
+              </div>
               {/* {t(
                 'Please set your OpenAI API key in the bottom left of the sidebar.',
               )} */}

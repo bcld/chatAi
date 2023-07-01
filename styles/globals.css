@@ -42,3 +42,8 @@ html {
 pre:has(div.codeblock) {
   padding: 0;
 }
+
+.imageCenter {
+  display: flex;
+  justify-content: center;
+}
