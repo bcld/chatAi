@@ -360,7 +360,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
               无需魔法,国内直连,便捷特惠。
             </div>
             <div className="mb-2 font-bold">
-              暑期特惠，超值租号套餐，3天2.7元，7天5.6元，不限次数。
+              暑期特惠，超值租号套餐，3天2.7元，7天5.6元，15元包月，不限次数。
             </div>
             {/* <br></br> */}
           </div>
@@ -380,7 +380,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
                 target="_blank"
                 rel="noreferrer"
                 className="text-blue-500 hover:underline"
-              >CrosstarAi
+              >CrostarAi
               </a>]
               <br></br>
               3. 在侧边栏左下角设置上述得到的API密钥，即可在下方输入栏开启ai对话。
