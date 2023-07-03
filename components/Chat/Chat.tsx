@@ -360,7 +360,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
               无需魔法,国内直连,便捷特惠。
             </div>
             <div className="mb-2 font-bold">
-              超值租号套餐，3天2.7元，7天5.6元，15元包月，不限次数。
+              超值租号套餐，3天2.4元，7天4.9元，8元包月，不限次数。
             </div>
             {/* <br></br> */}
           </div>
