@@ -357,7 +357,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
           <div className="text-center text-lg text-black dark:text-white">
             {/* <div className="mb-8">{`Panda AI is an open source clone of Chatbot UI.`}</div> */}
             <div className="mb-2 font-bold">
-              助力你直达 <span className="text-blue-500 hover:underline">ChatGPT</span> ,无须魔法。
+              助力你直达 <span className="text-blue-500">ChatGPT</span> ,无须魔法。
             </div>
             <div className="mb-2 font-bold">
               超值租号套餐，3元包月，8元包月，15元包年，不限次数。
