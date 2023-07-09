@@ -352,29 +352,36 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
       {!(apiKey || serverSideApiKeyIsSet) ? (
         <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
           <div className="text-center text-4xl font-bold text-black dark:text-white">
-            Welcome to Panda AI
+            Welcome to Panda AI助手
           </div>
           <div className="text-center text-lg text-black dark:text-white">
             {/* <div className="mb-8">{`Panda AI is an open source clone of Chatbot UI.`}</div> */}
             <div className="mb-2 font-bold">
-              无需魔法,国内直连,便捷特惠。
+              助力你直达 <span className="text-blue-500 hover:underline">ChatGPT</span> ,无须魔法。
             </div>
             <div className="mb-2 font-bold">
-              超值租号套餐，3天2.4元，7天4.9元，8元包月，不限次数。
+              超值租号套餐，3元包月，8元包月，15元包年，不限次数。
             </div>
             {/* <br></br> */}
           </div>
-          <div className="text-center text-gray-500 dark:text-gray-400">
-            
+          <div className="text-center text-gray-500 dark:text-gray-400 italic">
+            <div>更多ChatGPT账号服务，请咨询客服
+              [<a
+                  href="./kefu2.jpg"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-500 hover:underline"
+                >CrostarAi
+                </a>]
+            </div>
             {/* <div className="mb-2">
               It is <span className="italic">only</span> used to communicate
               with their API.
             </div> */}
             <div>
-            <div  className="mb-2 text-center font-bold">
+            {/* <div  className="mb-2 text-center font-bold">
               使用方式：<br></br>
-              1. 如果你有自己的账号,可以直接用您的apiKey<br></br>
-              2. 或者联系客服购买全网超值套餐：[
+              1. 联系客服购买全网超值套餐：[
               <a
                 href="./kefu2.jpg"
                 target="_blank"
@@ -383,8 +390,8 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
               >CrostarAi
               </a>]
               <br></br>
-              3. 在侧边栏左下角设置上述得到的API密钥，即可在下方输入栏开启ai对话。
-            </div>
+              2. 在侧边栏左下角设置上述得到的API密钥，即可在下方输入栏开启ai对话。
+            </div> */}
               <div className="mb-2 text-center">
                 <span className="italic"> 只做简单跳转，数据存放在本地浏览器，请放心食用</span>
               </div>
